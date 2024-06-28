@@ -1,40 +1,26 @@
-# PROJECT 0x04. C - More functions, more nested loops
+# C - More Functions, More Nested Loops
 
-![image](https://user-images.githubusercontent.com/105258746/190835047-aa8ab3e3-4e8a-4302-a215-8af869289b9e.png)
+## Description
+This project is part of the ALX SE Foundations curriculum and focuses on more functions and nested loops in the C programming language. The goal is to deepen the understanding of how to use functions, nested loops, and various related concepts in C.
 
-#### Nested loop means a loop statement inside another loop statement. That is why nested loops are also called as “loop inside loop"
-`(A nested loop is a loop inside the body of another loop)`
+## Learning Objectives
+By the end of this project, you should be able to explain the following without the help of Google:
+- What are nested loops and how to use them
+- What is a function and how to use functions
+- The difference between a declaration and a definition of a function
+- What is a prototype
+- The scope of variables
+- What are the gcc flags `-Wall`, `-Werror`, `-pedantic`, `-Wextra`, and `-std=gnu89`
+- What are header files and how to use them with `#include`
 
-- Note: The prototypes of all your functions and the prototype of the function _putchar should be included in your header file called main.h
-~ You have to start by creating your `main.h` first.
-```
-main.h file is the header file containing all the function prototypes used in this project.
-```
+## Requirements
+- Allowed editors: `vi`, `vim`, `emacs`
+- All your files will be compiled on Ubuntu 20.04 LTS using `gcc`, with the options `-Wall -Werror -Wextra -pedantic -std=gnu89`
+- All your files should end with a new line
+- A `README.md` file, at the root of the folder of the project, is mandatory
+- Your code should use the Betty style. It will be checked using `betty-style.pl` and `betty-doc.pl`
+- You are not allowed to use global variables
+- No more than 5 functions per file
+- You are not allowed to use the standard library. Any use of functions like `printf`, `puts`, etc. is forbidden
+- You are allowed to use
 
-- `File: 0-isupper.c` is a function that checks for uppercase character.
-
-- `File: 1-isdigit.c` is a function that checks for a digit (0 through 9).
-
-- `File: 2-mul.c` is a function that multiplies two integers.
-
-- `File 3-print_numbers.c` is a function that prints the numbers, from 0 to 9, followed by a new line.
-
-- `File 4-print_most_numbers.c` is a function that prints the numbers, from 0 to 9, followed by a new line.
-
-- `File 5-more_numbers.c` is a function that prints 10 times the numbers, from 0 to 14, followed by a new line.
-
-- `File 6-print_line.c` is a function that draws a straight line in the terminal.
-
-- `File 7-print_diagonal.c` is a function that draws a diagonal line on the terminal.
-
-- `File 8-print_square.c` is a function that prints a square, followed by a new line.
-
-- `File 9-fizz_buzz.c` is a program that prints the numbers from 1 to 100, followed by a new line, but for multiples of three prints Fizz instead of the number and for the multiples of five prints Buzz.
-
-- `File 10-print_triangle.c` is a function that prints a triangle, followed by a new line.
-
-- `File 100-prime_factor.c` is a program that finds and prints the largest prime factor of the number 612852475143, followed by a new line.
-
-- `File 101-print_number.c` is a function that prints an integer using only _putchar().
-
-- `File _putchar.c` contains the _putchar() function definition.
